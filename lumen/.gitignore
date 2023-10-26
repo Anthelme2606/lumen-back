@@ -1,0 +1,12 @@
+# Ignorer les fichiers de sauvegarde
+*~
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer le dossier de la corbeille de Windows
+$Recycle.Bin/
+
+
+/node_modules
+
