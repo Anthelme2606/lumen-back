@@ -1,0 +1,6 @@
+/* Ajouter une marge supérieure uniquement sur la version Android */
+@media only screen and (max-width: 600px) {
+    main {
+      margin-top: 16px; /* Ajustez la valeur de la marge supérieure selon vos besoins */
+    }
+  }
