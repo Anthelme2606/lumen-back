@@ -1,0 +1,87 @@
+
+    body{
+        margin:0;
+        padding:0;
+        width:100%;
+        overflow-x:hidden;
+        display:flex;
+        flex-wrap:wrap;
+        flex:1 1 100%;
+        background:#ede9ed;
+        flex-direction:column;
+    }
+    .content{
+        width:100%;
+        margin:0;
+        padding:0;
+       
+       
+    }
+    .card{
+        box-shadow:0 2px 4px rgba(0,0,0,0.1);
+    }
+    .card,.card-body,.card-header{
+        border:none;
+        background:#ffffff;
+
+    }
+    
+    .team-logo-parent{
+        width:60px;
+        height:60px;
+        border-radius:50%;
+        background:rgb(212, 220, 216);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .team-logo{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+        background:white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+   
+    .team-l1{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+        background:rgb(212, 220, 216);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .team-l2{
+        width:35px;
+        height:35px;
+        border-radius:50%;
+        background:#ffffff;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .small-text{
+        font-size:11px;
+    }
+    .-select {
+        outline:none;
+        padding: 0.375rem 1.75rem; 
+        border: 1px solid #007bff; 
+        border-radius: 0.25rem; 
+        outline: none; 
+        appearance: none; 
+        background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNNC4yOTIuMjkxYy0uMzg2LS4zODctMS4wMTYtLjM4Ny0xLjQwMyAwLS4zODcuMzg2LS4zODcuMTAxIDAgMS40MDNsNS41NSA1LjU1Yy4zODcuMzg2IDEuMDE3LjM4NiAxLjQwMyAwbDUuNTUtNS41NWMuMzg2LS4zODcuMzg2LTEuMDE2IDAtMS40MDMtLjM4Ni0uMzg3LTEuMDE3LS4zODctMS40MDMgMGwtNC44MjIgNC44MjJMMC40MjkgNC4yOTJjLS4zODYtLjM4Ny0xLjAxNi0uMzg3LTEuNDAzIDB6Ii8+Cjwvc3ZnPgo=') no-repeat right 0.75rem center;
+        background-size: 0.65em auto;
+    }
+
+    .form-select:focus {
+        border:none;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+    }
+    .custom-gap {
+        padding: 15px; 
+    }
+    
