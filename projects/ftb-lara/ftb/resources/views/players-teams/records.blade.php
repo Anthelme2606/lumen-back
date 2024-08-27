@@ -114,8 +114,7 @@ function displayMatches(teamId) {
             if (teamId == {{ $team->id }}) {
 
                 const opponents=@json($team_service->opponents($teams,$team));
-               
-                opponents.forEach((opponent,index)=>{
+                Object.entries(opponents).forEach((opponent,index)=>{
                     content += `
                     <div class="col">
                         <divid="{{$team->id}}" class="card position-relative card-checker" data-team-id="${opponent.match_id}">
